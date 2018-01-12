@@ -1,2 +1,1 @@
-web: python manage.py testserver
-web: python manage.py runserver
+web: gunicorn {{ project_name }}.wsgi
