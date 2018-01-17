@@ -1,1 +1,1 @@
-web: gunicorn chan144.wsgi --log-file -
+web: gunicorn chan144.wsgi
